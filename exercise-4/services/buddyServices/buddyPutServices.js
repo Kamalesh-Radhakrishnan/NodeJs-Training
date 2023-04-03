@@ -24,6 +24,8 @@ const updateBuddy = async (body) => {
             let writePromise = writeData('./assets/cdw_ace23_buddies.json',JSON.stringify(buddies));
             await writePromise.then(
                 () => {
+                    json.status = 200;
+                    json.message = "Success";
                     json.data = buddies;
                 }
             ).catch(
