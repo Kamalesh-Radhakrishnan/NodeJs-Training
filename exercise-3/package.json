@@ -1,0 +1,21 @@
+{
+  "name": "exercise-3",
+  "version": "1.0.0",
+  "description": "Exercise to use 3rd party package.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "third",
+    "party",
+    "package",
+    "random"
+  ],
+  "author": "Kamalesh A R",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.22",
+    "random-splice": "^2.0.1"
+  }
+}
